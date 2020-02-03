@@ -44,6 +44,7 @@ public class ShiftingZeroAtFirst {
 			arr[cnt++] = nonZero[z]; 
 		}
 		System.out.println(Arrays.toString(arr));
+		System.out.println("My changes...!");
 		
 	}
 }
