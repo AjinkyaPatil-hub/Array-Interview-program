@@ -9,10 +9,8 @@ public class SolutionSumZero {
 
 	public static void main(String[] args) {
 		int[] arr= {1,2,3,-1,-2,5,1,-1};
-		findingSumArrayZero(arr);
-		
+		findingSumArrayZero(arr);	
 	}
-
 	private static void findingSumArrayZero(int[] arr) {
 		int i=0;
 		
