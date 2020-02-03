@@ -24,7 +24,7 @@ public class Solution {
 				num--;
 			}
 		}
-	}
+	}//nice builder
 	//this is for checking that the given number is present 
 	//if present it will return false
 	//if not it will return true 
