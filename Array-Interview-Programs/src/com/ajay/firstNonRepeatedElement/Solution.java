@@ -9,7 +9,7 @@ import java.util.Iterator;
  */
 public class Solution {
 	public static void main(String[] args) {
-		int[] arr= {1,2,3,2,3,5,5};
+		int[] arr= {1,2,3,2,3,5};
 		//firstNonRepeatingElement(arr);
 		//edited by another developer
 		//edited by Suresh developer
@@ -31,9 +31,9 @@ public class Solution {
 		Integer key =0;
 		while(itr.hasNext()) {
 			key = itr.next();
-			if(key == 1) {
+			if(hm.get(key)== 1) {
 				//pass key in get method and get the value 
-				System.out.println(""+hm.get(key));
+				System.out.println("non repeting element: "+ key);
 			}
 		}
 		
