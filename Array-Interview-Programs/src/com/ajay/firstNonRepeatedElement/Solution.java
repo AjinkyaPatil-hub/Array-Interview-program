@@ -9,6 +9,8 @@ public class Solution {
 		int[] arr= {1,2,3,2,3,5};
 		firstNonRepeatingElement(arr);
 		//edited by another developer
+		//edited by Suresh developer
+		
 	}
 
 	private static void firstNonRepeatingElement(int[] arr) {
