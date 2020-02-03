@@ -49,7 +49,6 @@ public class Solution {
 				if(i!=j && arr[i] == arr[j]){
 					break;
 				}
-				
 				if(j == arr.length-1) {
 					System.out.println(arr[i]);
 				}
