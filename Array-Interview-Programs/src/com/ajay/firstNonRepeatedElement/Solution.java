@@ -15,7 +15,7 @@ public class Solution {
 		//edited by Suresh developer
 		firstNonRepeatingElementUsingHashing(arr);
 	}
-
+	//changed
 	private static void firstNonRepeatingElementUsingHashing(int[] arr) {
 		HashMap<Integer,Integer> hm = new HashMap<>();
 		
@@ -33,7 +33,7 @@ public class Solution {
 			key = itr.next();
 			if(hm.get(key)== 1) {
 				//pass key in get method and get the value 
-				System.out.println("non repeting element: "+ key);
+				System.out.println("non repeating element: "+ key);
 			}
 		}
 		
