@@ -33,7 +33,7 @@ public class Solution {
 			key = itr.next();
 			if(key == 1) {
 				//pass key in get method and get the value 
-				System.out.println("first nonrepeated value in the array: "+hm.get(key));
+				System.out.println(""+hm.get(key));
 			}
 		}
 		
