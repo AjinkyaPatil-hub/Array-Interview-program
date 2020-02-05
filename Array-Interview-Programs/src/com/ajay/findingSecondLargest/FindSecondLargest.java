@@ -10,6 +10,7 @@ public class FindSecondLargest {
 		findSecondLargestElement(list);
 	}
 
+	//i changed in FindSecondLargest program
 	private static void findSecondLargestElement(List<Integer> list) {
 		
 		int largest =list.get(0);
