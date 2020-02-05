@@ -10,7 +10,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		int num = 149;
-		int no = 9;
+		int no = 4;
 		findNoNotPresentDigit(num, no);
 	}
 
@@ -35,7 +35,7 @@ public class Solution {
 			if (mod == no) {
 				return false;
 			}
-			num = num / 10;
+			num = num / 10;//14
 		}
 		return true;
 	}
