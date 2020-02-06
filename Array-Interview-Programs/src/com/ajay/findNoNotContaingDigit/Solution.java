@@ -9,8 +9,8 @@ package com.ajay.findNoNotContaingDigit;
 public class Solution {
 
 	public static void main(String[] args) {
-		int num = 149;
-		int no = 1;
+		int num = 145;
+		int no = 4;
 		findNoNotPresentDigit(num, no);
 	}
 
